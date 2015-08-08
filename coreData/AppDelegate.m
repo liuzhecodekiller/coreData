@@ -124,4 +124,11 @@
     }
 }
 
+
++ (NSManagedObjectContext *)context
+{
+
+    AppDelegate * app = [UIApplication sharedApplication].delegate;
+    return app.managedObjectContext;
+}
 @end

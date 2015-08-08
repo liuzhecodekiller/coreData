@@ -15,6 +15,7 @@
 		BC24A65B1B761ED700C57D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC24A65A1B761ED700C57D81 /* Images.xcassets */; };
 		BC24A65E1B761ED700C57D81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC24A65C1B761ED700C57D81 /* LaunchScreen.xib */; };
 		BC24A66A1B761ED700C57D81 /* coreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6691B761ED700C57D81 /* coreDataTests.m */; };
+		BC24A6751B761F5400C57D81 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24A6741B761F5400C57D81 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		BC24A6631B761ED700C57D81 /* coreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC24A6681B761ED700C57D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC24A6691B761ED700C57D81 /* coreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreDataTests.m; sourceTree = "<group>"; };
+		BC24A6731B761F5400C57D81 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BC24A6741B761F5400C57D81 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				BC24A65C1B761ED700C57D81 /* LaunchScreen.xib */,
 				BC24A6511B761ED700C57D81 /* coreData.xcdatamodeld */,
 				BC24A64A1B761ED700C57D81 /* Supporting Files */,
+				BC24A6731B761F5400C57D81 /* Student.h */,
+				BC24A6741B761F5400C57D81 /* Student.m */,
 			);
 			path = coreData;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			files = (
 				BC24A6501B761ED700C57D81 /* AppDelegate.m in Sources */,
 				BC24A6531B761ED700C57D81 /* coreData.xcdatamodeld in Sources */,
+				BC24A6751B761F5400C57D81 /* Student.m in Sources */,
 				BC24A6561B761ED700C57D81 /* ViewController.m in Sources */,
 				BC24A64D1B761ED700C57D81 /* main.m in Sources */,
 			);
