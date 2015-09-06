@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  coreData
 //
-//  Created by qianfeng on 15-8-8.
+//  Created by shenZhenNewWorld on 15-8-8.
 //  Copyright (c) 2015年 LZ. All rights reserved.
 //
 
@@ -51,7 +51,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "qianfeng.coreData" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "shenZhenNewWorld.coreData" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

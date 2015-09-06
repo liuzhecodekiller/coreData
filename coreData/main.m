@@ -2,7 +2,7 @@
 //  main.m
 //  coreData
 //
-//  Created by qianfeng on 15-8-8.
+//  Created by shenZhenNewWorld on 15-8-8.
 //  Copyright (c) 2015年 LZ. All rights reserved.
 //
 
